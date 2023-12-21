@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.header {
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+.map img {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    border: 1px solid #ddd; /* Optional */
+    border-radius: 4px; /* Optional */
+    padding: 5px; /* Optional */
+    margin: 20px 0; /* Optional */
+}
+.map-container {
+    position: relative;
+    display: inline-block; /* Makes the container fit the size of the image */
+}
+
+.map-button {
+    position: absolute;
+    transform: translate(-50%, -50%); /* Centers the button on the coordinates */
+    /* You'll need to adjust the top and left percentages to position your buttons correctly */
+}
+
+#chittagong {
+    top: 30%; /* Adjust this value */
+    left: 70%; /* Adjust this value */
+}
+
+/* Repeat for the other buttons later, using the correct top and left values for each city */
+
+/* Add styles for your buttons here after */
+.map-button {
+    cursor: pointer;
+    /* Add more styling as needed later */
+}
